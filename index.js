@@ -16,7 +16,7 @@ function buildReport(data) {
 
     sheet['B2'].v = centre.location;
     var [year, month, day] = centre.date.split("-");
-    date = `${day}/${month}/${year}`;
+    var date = `${day}/${month}/${year}`;
     sheet['B3'].v = date;
     sheet['C5'].v = centre.details;
     sheet['B16'].v = centre.lip;
